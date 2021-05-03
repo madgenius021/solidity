@@ -51,6 +51,7 @@
                             "arguments":
                             [
                               {
+                                "hexValue": "30",
                                 "kind": "number",
                                 "nodeType": "YulLiteral",
                                 "src": "67:1:1",
@@ -58,6 +59,7 @@
                                 "value": "0"
                               },
                               {
+                                "hexValue": "31",
                                 "kind": "number",
                                 "nodeType": "YulLiteral",
                                 "src": "70:1:1",
@@ -65,6 +67,7 @@
                                 "value": "1"
                               },
                               {
+                                "hexValue": "32",
                                 "kind": "number",
                                 "nodeType": "YulLiteral",
                                 "src": "73:1:1",
@@ -72,6 +75,7 @@
                                 "value": "2"
                               },
                               {
+                                "hexValue": "33",
                                 "kind": "number",
                                 "nodeType": "YulLiteral",
                                 "src": "76:1:1",
@@ -79,6 +83,7 @@
                                 "value": "3"
                               },
                               {
+                                "hexValue": "34",
                                 "kind": "number",
                                 "nodeType": "YulLiteral",
                                 "src": "79:1:1",
@@ -86,6 +91,7 @@
                                 "value": "4"
                               },
                               {
+                                "hexValue": "35",
                                 "kind": "number",
                                 "nodeType": "YulLiteral",
                                 "src": "82:1:1",
@@ -93,6 +99,7 @@
                                 "value": "5"
                               },
                               {
+                                "hexValue": "36",
                                 "kind": "number",
                                 "nodeType": "YulLiteral",
                                 "src": "85:1:1",

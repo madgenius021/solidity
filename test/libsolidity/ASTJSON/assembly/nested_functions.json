@@ -64,6 +64,7 @@
                             "src": "130:6:1",
                             "value":
                             {
+                              "hexValue": "32",
                               "kind": "number",
                               "nodeType": "YulLiteral",
                               "src": "135:1:1",

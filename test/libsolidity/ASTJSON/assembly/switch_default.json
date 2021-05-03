@@ -56,6 +56,7 @@
                           "src": "72:9:1",
                           "value":
                           {
+                            "hexValue": "30",
                             "kind": "number",
                             "nodeType": "YulLiteral",
                             "src": "77:1:1",
@@ -77,6 +78,7 @@
                       ],
                       "expression":
                       {
+                        "hexValue": "30",
                         "kind": "number",
                         "nodeType": "YulLiteral",
                         "src": "70:1:1",

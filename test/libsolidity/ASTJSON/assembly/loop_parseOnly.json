@@ -49,6 +49,7 @@
                       },
                       "condition":
                       {
+                        "hexValue": "31",
                         "kind": "number",
                         "nodeType": "YulLiteral",
                         "src": "70:1:1",
@@ -71,6 +72,7 @@
                                   "arguments":
                                   [
                                     {
+                                      "hexValue": "30",
                                       "kind": "number",
                                       "nodeType": "YulLiteral",
                                       "src": "84:1:1",

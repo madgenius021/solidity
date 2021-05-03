@@ -58,6 +58,7 @@
                                   "arguments":
                                   [
                                     {
+                                      "hexValue": "3230",
                                       "kind": "number",
                                       "nodeType": "YulLiteral",
                                       "src": "92:2:1",
