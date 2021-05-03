@@ -1036,7 +1036,7 @@ This component of the optimizer performs restricted function inlining by inlinin
 inlined inside functional expressions, i.e. functions that:
 
  - return a single value.
- - have a body like r := <functional expression>.
+ - have a body like ``r := <functional expression>``.
  - neither reference themselves nor ``r`` in the right hand side.
 
 Furthermore, for all parameters, all of the following need to be true:
