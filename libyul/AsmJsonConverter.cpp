@@ -24,6 +24,7 @@
 #include <libyul/AST.h>
 #include <libyul/Exceptions.h>
 #include <libsolutil/CommonData.h>
+#include <libsolutil/UTF8.h>
 
 using namespace std;
 
@@ -66,7 +67,11 @@ Json::Value AsmJsonConverter::operator()(Literal const& _node) const
 		break;
 	}
 	ret["type"] = _node.type.str();
-	ret["value"] = _node.value.str();
+	if (util::validateUTF8(_node.value.str()))
+		ret["value"] = _node.value.str();
+	else
+		ret["value"] = Json::nullValue;
+	ret["hexValue"] = util::toHex(util::asBytes(_node.value.str()));
 	return ret;
 }
 

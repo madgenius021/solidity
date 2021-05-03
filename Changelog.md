@@ -10,6 +10,11 @@ Compiler Features:
 
 
 Bugfixes:
+ * AST: Do not output value of Yul literal if it is not valid utf8.
+
+
+AST Changes:
+ * Add member `hexValue` for Yul literals.
 
 
 ### 0.8.4 (2021-04-21)
